@@ -1,63 +1,27 @@
 --Paciente
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Juan', 1234567890,'1990-05-15', 'Masculino');
+--Paciente
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Juan', 1234567890, '15/05/90', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('María', 2345678901, '20/08/85', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Carlos', 3456789012, '10/12/78', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Ana', 4567890123, '25/03/92', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Pedro', 5678901234, '03/07/80', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Luisa', 6789012345, '18/11/75', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Miguel', 7890123456, '29/09/87', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Lucía', 8901234567, '08/01/95', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('José', 9012345678, '12/06/83', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Sofía', 1230123012, '30/04/98', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Andrés', 2341234123, '05/10/73', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Elena', 3452345234, '17/02/89', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Mario', 4563456345, '22/07/91', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Laura', 5674567456, '05/11/82', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Roberto', 6785678567, '28/12/76', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Isabel', 7896789678, '14/08/86', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Javier', 8907890789, '19/03/93', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Carmen', 9018901890, '27/05/79', 'Femenino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Daniel', 1239012901, '10/09/97', 'Masculino');
+INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Paula', 2340123012, '04/01/84', 'Femenino');
 
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('María', 2345678901,'1985-08-20', 'Femenino');
 
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Carlos', 3456789012,'1978-12-10', 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Ana', 4567890123, '1992-03-25', 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Pedro', 5678901234, '1980-07-03', 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Luisa', 6789012345, TO_DATE('1975-11-18', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Miguel', 7890123456, TO_DATE('1987-09-29', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Lucía', 8901234567, TO_DATE('1995-01-08', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('José', 9012345678, TO_DATE('1983-06-12', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Sofía', 1230123012, TO_DATE('1998-04-30', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Andrés', 2341234123, TO_DATE('1973-10-05', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Elena', 3452345234, TO_DATE('1989-02-17', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Mario', 4563456345, TO_DATE('1991-07-22', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Laura', 5674567456, TO_DATE('1982-11-05', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Roberto', 6785678567, TO_DATE('1976-12-28', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Isabel', 7896789678, TO_DATE('1986-08-14', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Javier', 8907890789, TO_DATE('1993-03-19', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Carmen', 9018901890, TO_DATE('1979-05-27', 'YYYY-MM-DD'), 'Femenino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Daniel', 1239012901, TO_DATE('1997-09-10', 'YYYY-MM-DD'), 'Masculino');
-
-INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Paula', 2340123012, TO_DATE('1984-01-04', 'YYYY-MM-DD'), 'Femenino');
 --Alergia
 INSERT INTO Alergias (tipoAlergia, pacienteCedula) VALUES ('Polen', 1234567890);
 INSERT INTO Alergias (tipoAlergia, pacienteCedula) VALUES ('Nueces', 2345678901);
