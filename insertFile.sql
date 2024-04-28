@@ -103,7 +103,59 @@ INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VAL
 INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VALUES ('María Pérez', 2121212121, 'Padre', 2340123012, 2340123012);
 
 --Cita
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (6789, 1230123012, '2024-04-16', '2023-12-16', '18:30:00.000000', '17:30:00.000000', 0);
 
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (7890, 2341234123, '2024-05-17', '2023-12-15', '19:45:00.000000', '18:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (8901, 3452345234, '2024-06-18', '2023-12-14', '20:15:00.000000', '19:15:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (9012, 4563456345, '2024-07-19', '2023-12-13', '21:00:00.000000', '20:30:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1011, 5674567456, '2024-08-20', '2023-12-12', '22:10:00.000000', '21:45:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1234, 6789012345, '2024-09-21', '2023-12-11', '13:30:00.000000', '12:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2345, 7890123456, '2024-10-22', '2023-12-10', '14:45:00.000000', '13:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3456, 6789012345, '2024-11-23', '2023-12-09', '15:20:00.000000', '14:30:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (4567, 9012345678, '2024-12-24', '2023-12-08', '16:10:00.000000', '15:15:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (5678, 7890123456, '2024-01-25', '2023-12-07', '17:00:00.000000', '16:45:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (6789, 1230123012, '2024-02-26', '2023-12-06', '18:30:00.000000', '17:30:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (7890, 2341234123, '2024-03-27', '2023-12-05', '19:45:00.000000', '18:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (8901, 3452345234, '2024-04-28', '2023-12-04', '20:15:00.000000', '19:15:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (9012, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1011, 5674567456, '2024-06-30', '2023-12-02', '22:10:00.000000', '21:45:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1234, 6789012345, '2024-07-01', '2023-12-01', '13:30:00.000000', '12:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2345, 7890123456, '2024-08-02', '2023-11-30', '14:45:00.000000', '13:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3456, 6789012345, '2024-09-03', '2023-11-29', '15:20:00.000000', '14:30:00.000000', 0);
 
 --MotivoCita
 
