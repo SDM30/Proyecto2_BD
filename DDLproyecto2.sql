@@ -46,8 +46,8 @@ CREATE table personalMedico(
     cedulaPM numeric(10) not null,
     nombre varchar(30) not null,
     cargo varchar(30) not NULL,
-    sexo varchar(10) not NULL,
-    direccion varchar(10) not null,
+    sexo varchar(10) not NULL CHECK (sexo = 'Masculino' OR sexo ='Femenino'),
+    direccion varchar(40) not null,
     id_cita numeric(10) not null,
     foreign key (id_cita) references Cita on delete set null,
     primary key(cedulaPM)
@@ -107,8 +107,6 @@ CREATE TABLE Reclamo(
     id_cita numeric(10),
     CPNIT numeric(10),
     polizaNumero numeric(10),
-    id_etapa numeric(10),
-    foreign key (id_etapa) references Etapa on delete set null,
     foreign key (id_cita) references cita on delete set null,
     foreign key (CPNIT) references companiaPoliza on delete set null,
     foreign key (polizaNumero) references PolizaProyecto2 on delete set null,
@@ -134,6 +132,14 @@ CREATE TABLE Etapa(
     foreign key (reclamoCod) references Reclamo on delete set null,
     foreign key (cedulaPM) references personalMedico on delete set null,
     foreign key (id_disputa) references Disputa on delete set null,    
+    primary key(id_etapa)
+);
+
+CREATE TABLE ReclamoGeneradoEtapa(
+    id_etapa numeric(10),
+    codigoR numeric(10),
+    foreign key (id_etapa) references Etapa on delete set null,
+    foreign key (codigoR) references Reclamo on delete set null,
     primary key(id_etapa)
 );
 
