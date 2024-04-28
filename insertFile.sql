@@ -1,18 +1,18 @@
 --Paciente
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Juan', 1234567890, TO_DATE('1990-05-15', 'YYYY-MM-DD'), 'Masculino');
+('Juan', 1234567890,'1990-05-15', 'Masculino');
 
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('María', 2345678901, TO_DATE('1985-08-20', 'YYYY-MM-DD'), 'Femenino');
+('María', 2345678901,'1985-08-20', 'Femenino');
 
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Carlos', 3456789012, TO_DATE('1978-12-10', 'YYYY-MM-DD'), 'Masculino');
+('Carlos', 3456789012,'1978-12-10', 'Masculino');
 
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Ana', 4567890123, TO_DATE('1992-03-25', 'YYYY-MM-DD'), 'Femenino');
+('Ana', 4567890123, '1992-03-25', 'Femenino');
 
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
-('Pedro', 5678901234, TO_DATE('1980-07-03', 'YYYY-MM-DD'), 'Masculino');
+('Pedro', 5678901234, '1980-07-03', 'Masculino');
 
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES
 ('Luisa', 6789012345, TO_DATE('1975-11-18', 'YYYY-MM-DD'), 'Femenino');
@@ -113,9 +113,6 @@ INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaPr
 VALUES (3456, 6789012345, '2024-03-03', '2023-12-29', '15:20:00.000000', '14:30:00.000000', 55000);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (4567, 9012345678, '2024-04-04', '2023-12-28', '16:10:00.000000', '15:15:00.000000', 90000);
-
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
 VALUES (5678, 7890123456, '2024-05-05', '2023-12-27', '17:00:00.000000', '16:45:00.000000', 200000);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
@@ -140,7 +137,7 @@ INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaPr
 VALUES (2345, 7890123456, '2024-12-12', '2023-12-20', '14:45:00.000000', '13:00:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (3456, 6789012345, '2024-01-13', '2023-12-19', '15:20:00.000000', '14:30:00.000000', 0);
+VALUES (3457, 6789012345, '2024-01-13', '2023-12-19', '15:20:00.000000', '14:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
 VALUES (4567, 9012345678, '2024-02-14', '2023-12-18', '16:10:00.000000', '15:15:00.000000', 0);
