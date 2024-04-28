@@ -152,15 +152,10 @@ VALUES (0813, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:
 --MotivoCita
 
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0001, 'Consulta general', 1234);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0002, 'Control de presión arterial', 2345);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0003, 'Consulta pediátrica', 3456);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0004, 'Revisión de resultados de laboratorio', 4567);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0005, 'Consulta especializada', 5678);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0006, 'Control de medicación', 6789);
 
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0007, 'Chequeo dental', 7890);
