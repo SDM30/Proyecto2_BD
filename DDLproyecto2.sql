@@ -116,6 +116,7 @@ CREATE TABLE Reclamo(
 CREATE TABLE Disputa(
     id_disputa numeric(10),
     reclamoCod numeric(10),
+    motivo varchar(100),
     foreign key (reclamoCod) references Reclamo on delete set null,
     primary key(id_disputa)
 );
