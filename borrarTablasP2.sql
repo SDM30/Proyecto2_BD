@@ -1,0 +1,16 @@
+DROP TABLE Razon;
+DROP TABLE ReclamoGeneradoEtapa;
+DROP TABLE Etapa;
+DROP TABLE Disputa;
+DROP TABLE Reclamo;
+DROP TABLE personaContactoCo;
+DROP TABLE companiaPoliza;
+DROP TABLE tipoCubrimiento;
+DROP TABLE PolizaProyecto2;
+DROP TABLE Titulo;
+DROP TABLE personalMedico;
+DROP TABLE motivoCita;
+DROP TABLE Cita;
+DROP TABLE Acudiente;
+DROP TABLE Alergias;
+DROP TABLE Paciente;
