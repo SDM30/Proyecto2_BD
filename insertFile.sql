@@ -151,131 +151,89 @@ VALUES (0813, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:
 
 --MotivoCita
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0001, 'Consulta general', 1234);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0001, 'Consulta general', 1234);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0002, 'Control de presión arterial', 2345);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0002, 'Control de presión arterial', 2345);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0003, 'Consulta pediátrica', 3456);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0003, 'Consulta pediátrica', 3456);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0004, 'Revisión de resultados de laboratorio', 4567);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0004, 'Revisión de resultados de laboratorio', 4567);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0005, 'Consulta especializada', 5678);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0005, 'Consulta especializada', 5678);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0006, 'Control de medicación', 6789);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0006, 'Control de medicación', 6789);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0007, 'Chequeo dental', 7890);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0007, 'Chequeo dental', 7890);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0008, 'Consulta oftalmológica', 8901);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0008, 'Consulta oftalmológica', 8901);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0009, 'Vacunación', 9012);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0009, 'Vacunación', 9012);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0010, 'Seguimiento de embarazo', 1011);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0010, 'Seguimiento de embarazo', 1011);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0011, 'Consulta de planificación familiar', 1235);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0011, 'Consulta de planificación familiar', 1235);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0012, 'Control de peso', 2345);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0012, 'Control de peso', 2345);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0013, 'Consulta de dermatología', 3457);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0013, 'Consulta de dermatología', 3457);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0014, 'Chequeo de rutina', 4567);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0014, 'Chequeo de rutina', 4567);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0015, 'Consulta de gastroenterología', 5679);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0015, 'Consulta de gastroenterología', 5679);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0016, 'Consulta de traumatología', 0800);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0016, 'Consulta de traumatología', 0800);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0017, 'Consulta de otorrinolaringología', 0801);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0017, 'Consulta de otorrinolaringología', 0801);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0018, 'Control de diabetes', 0802);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0018, 'Control de diabetes', 0802);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0019, 'Consulta de psicología', 0803);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0019, 'Consulta de psicología', 0803);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0020, 'Control de alergias', 0804);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0020, 'Control de alergias', 0804);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0021, 'Consulta de cardiología', 0805);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0021, 'Consulta de cardiología', 0805);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0022, 'Consulta de neumología', 0806);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0022, 'Consulta de neumología', 0806);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0023, 'Chequeo de audición', 0807);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0023, 'Chequeo de audición', 0807);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0024, 'Consulta de endocrinología', 0808);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0024, 'Consulta de endocrinología', 0808);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0025, 'Consulta de urología', 0809);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0025, 'Consulta de urología', 0809);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0026, 'Consulta de reumatología', 0810);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0026, 'Consulta de reumatología', 0810);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0027, 'Consulta de oncología', 0811);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0027, 'Consulta de oncología', 0811);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0028, 'Control de tiroides', 0812);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0028, 'Control de tiroides', 0812);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0029, 'Consulta de nutrición', 0813);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0029, 'Consulta de nutrición', 0813);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0030, 'Consulta de geriatría', 1011);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0030, 'Consulta de geriatría', 1011);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0031, 'Consulta de oftalmología pediátrica', 1234);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0031, 'Consulta de oftalmología pediátrica', 1234);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0032, 'Chequeo de salud mental', 2345);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0032, 'Chequeo de salud mental', 2345);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0033, 'Consulta de ginecología', 3456);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0033, 'Consulta de ginecología', 3456);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0034, 'Control de hipertensión', 4567);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0034, 'Control de hipertensión', 4567);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0035, 'Consulta de pediatría respiratoria', 5678);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0035, 'Consulta de pediatría respiratoria', 5678);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0036, 'Consulta de traumatología infantil', 6789);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0036, 'Consulta de traumatología infantil', 6789);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0037, 'Consulta de otorrinolaringología pediátrica', 7890);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0037, 'Consulta de otorrinolaringología pediátrica', 7890);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0038, 'Consulta de gastroenterología pediátrica', 8901);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0038, 'Consulta de gastroenterología pediátrica', 8901);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0039, 'Consulta de nutrición infantil', 9012);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0039, 'Consulta de nutrición infantil', 9012);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0040, 'Consulta de alergología pediátrica', 1011);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0040, 'Consulta de alergología pediátrica', 1011);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0041, 'Consulta de dermatología pediátrica', 1234);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0041, 'Consulta de dermatología pediátrica', 1234);
 
-INSERT INTO MotivoCita (id_motivo, descripcion, id_cita)
-VALUES (0042, 'Control de desarrollo infantil', 2345);
+INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0042, 'Control de desarrollo infantil', 2345);
 
 
 --PersonaContactoCo
