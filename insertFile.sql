@@ -104,6 +104,50 @@ INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VAL
 
 --Cita
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1234, 6789012345, '2024-01-01', '2023-12-31', '13:30:00.000000', '12:00:00.000000', 75000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2345, 7890123456, '2024-02-02', '2023-12-30', '14:45:00.000000', '13:00:00.000000', 100000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3456, 6789012345, '2024-03-03', '2023-12-29', '15:20:00.000000', '14:30:00.000000', 55000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (4567, 9012345678, '2024-04-04', '2023-12-28', '16:10:00.000000', '15:15:00.000000', 90000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (5678, 7890123456, '2024-05-05', '2023-12-27', '17:00:00.000000', '16:45:00.000000', 200000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (6789, 1230123012, '2024-06-06', '2023-12-26', '18:30:00.000000', '17:30:00.000000', 60000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (7890, 2341234123, '2024-07-07', '2023-12-25', '19:45:00.000000', '18:00:00.000000', 85000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (8901, 3452345234, '2024-08-08', '2023-12-24', '20:15:00.000000', '19:15:00.000000', 150000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (9012, 4563456345, '2024-09-09', '2023-12-23', '21:00:00.000000', '20:30:00.000000', 70000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1011, 5674567456, '2024-10-10', '2023-12-22', '22:10:00.000000', '21:45:00.000000', 95000);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1234, 6789012345, '2024-11-11', '2023-12-21', '13:30:00.000000', '12:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2345, 7890123456, '2024-12-12', '2023-12-20', '14:45:00.000000', '13:00:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3456, 6789012345, '2024-01-13', '2023-12-19', '15:20:00.000000', '14:30:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (4567, 9012345678, '2024-02-14', '2023-12-18', '16:10:00.000000', '15:15:00.000000', 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (5678, 7890123456, '2024-03-15', '2023-12-17', '17:00:00.000000', '16:45:00.000000', 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
 VALUES (0800, 1230123012, '2024-04-16', '2023-12-16', '18:30:00.000000', '17:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
@@ -146,32 +190,15 @@ INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaPr
 VALUES (0813, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:00.000000', 0);
 
 --MotivoCita
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (234567890, 'María García', '2345678901', 234567890);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (345678901, 'Pedro López', '3456789012', 345678901);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (234567890, 'María García', '2345678901', 234567890);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456)
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
 VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
@@ -264,79 +291,60 @@ INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Dermatologo', 4567890123);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (1001, 1234567890);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (1002, 1234567890);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (1003, 1234567890);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (2001, 2345678901);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (2002, 2345678901);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (2003, 2345678901);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (3001, 3456789012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (3002, 3456789012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (3003, 3456789012);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (4001, 4567890123);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (4002, 4567890123);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (4003, 4567890123);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (5001, 5678901234);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (5002, 5678901234);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (5003, 5678901234);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (6001, 6789012345);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (6002, 6789012345);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (6003, 6789012345);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (7001, 7890123456);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (7002, 7890123456);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (7003, 7890123456);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (8001, 8901234567);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (8002, 8901234567);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (8003, 8901234567);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (9001, 9012345678);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (9002, 9012345678);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (9003, 9012345678);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (10001, 1230123012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (10002, 1230123012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (10003, 1230123012);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (11001, 2341234123);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (11002, 2341234123);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (11003, 2341234123);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (12001, 3452345234);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (12002, 3452345234);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (12003, 3452345234);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (13001, 4563456345);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (13002, 4563456345);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (13003, 4563456345);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (14001, 5674567456);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (14002, 5674567456);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (14003, 5674567456);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (15001, 6785678567);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (15002, 6785678567);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (15003, 6785678567);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (16001, 7896789678);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (16002, 7896789678);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (16003, 7896789678);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (17001, 8907890789);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (17002, 8907890789);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (17003, 8907890789);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (18001, 9018901890);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (18002, 9018901890);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (18003, 9018901890);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (19001, 1239012901);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (19002, 1239012901);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (19003, 1239012901);
-
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (20001, 2340123012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (20002, 2340123012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (20003, 2340123012);
@@ -381,119 +389,59 @@ INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (36,
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (37, 'Salud', 11000.00, 13001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (38, 'Muerte', 14000.00, 13002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (39, 'Consultas médicas', 22000.00, 13003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (40, 'Salud', 11500.00, 14001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (41, 'Muerte', 14500.00, 14002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (42, 'Consultas médicas', 23000.00, 14003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (43, 'Salud', 12000.00, 15001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (44, 'Muerte', 15000.00, 15002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (45, 'Consultas médicas', 24000.00, 15003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (46, 'Salud', 12500.00, 16001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (47, 'Muerte', 15500.00, 16002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (48, 'Consultas médicas', 25000.00, 16003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (49, 'Salud', 13000.00, 17001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (50, 'Muerte', 16000.00, 17002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (51, 'Consultas médicas', 26000.00, 17003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (52, 'Salud', 13500.00, 18001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (53, 'Muerte', 16500.00, 18002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (54, 'Consultas médicas', 27000.00, 18003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (55, 'Salud', 14000.00, 19001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (56, 'Muerte', 17000.00, 19002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (57, 'Consultas médicas', 28000.00, 19003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (58, 'Salud', 14500.00, 20001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (59, 'Muerte', 17500.00, 20002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (60, 'Consultas médicas', 29000.00, 20003);
 
 --CompaniaPoliza
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (123456789, 'Poliza A', '123 Calle Principal', '192.168.0.1', 1001);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (234567890, 'Poliza B', '456 Calle Secundaria', '192.168.0.2', 1002);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (345678901, 'Poliza C', '789 Calle Terciaria', '192.168.0.3', 1003);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (456789012, 'Poliza D', '012 Calle Cuarta', '192.168.0.4', 2001);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (567890123, 'Poliza E', '345 Calle Quinta', '192.168.0.5', 2002);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (678901234, 'Poliza F', '678 Calle Sexta', '192.168.0.6', 2003);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (789012345, 'Poliza G', '901 Calle Séptima', '192.168.0.7', 3001);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (890123456, 'Poliza H', '234 Calle Octava', '192.168.0.8', 3002);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (901234567, 'Poliza I', '567 Calle Novena', '192.168.0.9', 3003);
-
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) 
-VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10', 4001);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123456789, 'Poliza A', '123 Calle Principal', '192.168.0.1', 1001);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (234567890, 'Poliza B', '456 Calle Secundaria', '192.168.0.2', 1002);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (345678901, 'Poliza C', '789 Calle Terciaria', '192.168.0.3', 1003);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (456789012, 'Poliza D', '012 Calle Cuarta', '192.168.0.4', 2001);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (567890123, 'Poliza E', '345 Calle Quinta', '192.168.0.5', 2002);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (678901234, 'Poliza F', '678 Calle Sexta', '192.168.0.6', 2003);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (789012345, 'Poliza G', '901 Calle Séptima', '192.168.0.7', 3001);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (890123456, 'Poliza H', '234 Calle Octava', '192.168.0.8', 3002);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (901234567, 'Poliza I', '567 Calle Novena', '192.168.0.9', 3003);
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10', 4001);
 
 --Reclamo
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (2345, 'Facturación incorrecta', '2024-05-17', '2024-05-19', '2024-05-23', 200.00, 50.00, 'Pagado Parcial', 7890, 234567890, 1002);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (3456, 'Tratamiento incorrecto', '2024-06-18', '2024-06-20', '2024-06-24', 800.00, 400.00, 'Pagado Parcial', 8901, 345678901, 1003);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (4567, 'Negligencia médica', '2024-07-19', '2024-07-21', '2024-07-28', 1200.00, 1200.00, 'Pagado', 9012, 456789012, 2001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (5678, 'Medicación equivocada', '2024-08-20', '2024-08-22', '2024-08-26', 300.00, 100.00, 'Pagado Parcial', 1011, 567890123, 2002);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (6789, 'Infección post-operatoria', '2024-09-21', '2024-09-23', '2024-09-27', 1500.00, 500.00, 'Pagado Parcial', 1234, 678901234, 2003);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (7890, 'Diagnóstico erróneo', '2024-10-22', '2024-10-24','2024-10-28', 600.00, 300.00, 'Pagado Parcial', 2345, 789012345, 3001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (8901, 'Daño durante cirugía', '2024-11-23', '2024-11-25', '2024-12-02', 2000.00, 2000.00, 'Pagado', 3456, 678901234, 3002);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (9012, 'Falta de equipo necesario', '2024-12-24', '2024-12-26', '2024-12-29', 400.00, 200.00, 'Pagado Parcial', 4567, 901234567, 3003);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (1011, 'Trato inapropiado del personal', '2024-01-25', '2024-01-27','2024-01-30', 700.00, 350.00, 'Pagado Parcial', 5678, 789012345, 4001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (1111, 'Cancelación de cita no informada', '2024-02-26', '2024-02-28', NULL, 100.00, 0.00, 'Denegado', 6789, 123456789, 1001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (2222, 'Procedimiento no autorizado', '2024-03-27', '2024-03-29', '2024-03-31', 800.00, 400.00, 'Pagado Parcial', 7890, 234567890, 1002);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (3333, 'Resultado de análisis incorrecto', '2024-04-28', '2024-04-29', '2024-04-30', 400.00, 100.00, 'Pagado Parcial', 8901, 345678901, 1003);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (4444, 'Espera excesiva en la sala de espera', '2024-05-28', '2024-05-29', '2024-05-30', 200.00, 100.00, 'Pagado Parcial', 9012, 456789012, 2001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (5555, 'Problemas con el equipo médico', '2024-06-30', '2024-07-02', '2024-07-06', 1500.00, 500.00, 'Pagado Parcial', 1011, 567890123, 2002);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (6666, 'Errores en el historial clínico', '2024-07-01', '2024-07-03', '2024-07-07', 600.00, 300.00, 'Pagado Parcial', 1234, 678901234, 2003);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (7777, 'Cobros indebidos', '2024-08-02', '2024-08-04', '2024-08-08', 1000.00, 900.00, 'Pagado Parcial', 2345, 789012345, 3001);
-
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
-VALUES (8888, 'Problemas de comunicación con el personal', '2024-09-03', '2024-09-05','2024-09-08', 300.00, 200.00, 'Pagado Parcial', 3456, 678901234, 3002);  
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (2345, 'Facturación incorrecta', '2024-05-17', '2024-05-19', '2024-05-23', 200.00, 50.00, 'Pagado Parcial', 7890, 234567890, 1002);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (3456, 'Tratamiento incorrecto', '2024-06-18', '2024-06-20', '2024-06-24', 800.00, 400.00, 'Pagado Parcial', 8901, 345678901, 1003);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (4567, 'Negligencia médica', '2024-07-19', '2024-07-21', '2024-07-28', 1200.00, 1200.00, 'Pagado', 9012, 456789012, 2001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (5678, 'Medicación equivocada', '2024-08-20', '2024-08-22', '2024-08-26', 300.00, 100.00, 'Pagado Parcial', 1011, 567890123, 2002);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (6789, 'Infección post-operatoria', '2024-09-21', '2024-09-23', '2024-09-27', 1500.00, 500.00, 'Pagado Parcial', 1234, 678901234, 2003);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (7890, 'Diagnóstico erróneo', '2024-10-22', '2024-10-24','2024-10-28', 600.00, 300.00, 'Pagado Parcial', 2345, 789012345, 3001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (8901, 'Daño durante cirugía', '2024-11-23', '2024-11-25', '2024-12-02', 2000.00, 2000.00, 'Pagado', 3456, 678901234, 3002);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (9012, 'Falta de equipo necesario', '2024-12-24', '2024-12-26', '2024-12-29', 400.00, 200.00, 'Pagado Parcial', 4567, 901234567, 3003);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1011, 'Trato inapropiado del personal', '2024-01-25', '2024-01-27','2024-01-30', 700.00, 350.00, 'Pagado Parcial', 5678, 789012345, 4001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1111, 'Cancelación de cita no informada', '2024-02-26', '2024-02-28', NULL, 100.00, 0.00, 'Denegado', 6789, 123456789, 1001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (2222, 'Procedimiento no autorizado', '2024-03-27', '2024-03-29', '2024-03-31', 800.00, 400.00, 'Pagado Parcial', 7890, 234567890, 1002);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (3333, 'Resultado de análisis incorrecto', '2024-04-28', '2024-04-29', '2024-04-30', 400.00, 100.00, 'Pagado Parcial', 8901, 345678901, 1003);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (4444, 'Espera excesiva en la sala de espera', '2024-05-28', '2024-05-29', '2024-05-30', 200.00, 100.00, 'Pagado Parcial', 9012, 456789012, 2001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (5555, 'Problemas con el equipo médico', '2024-06-30', '2024-07-02', '2024-07-06', 1500.00, 500.00, 'Pagado Parcial', 1011, 567890123, 2002);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (6666, 'Errores en el historial clínico', '2024-07-01', '2024-07-03', '2024-07-07', 600.00, 300.00, 'Pagado Parcial', 1234, 678901234, 2003);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (7777, 'Cobros indebidos', '2024-08-02', '2024-08-04', '2024-08-08', 1000.00, 900.00, 'Pagado Parcial', 2345, 789012345, 3001);
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (8888, 'Problemas de comunicación con el personal', '2024-09-03', '2024-09-05','2024-09-08', 300.00, 200.00, 'Pagado Parcial', 3456, 678901234, 3002);  
 
 --Disputa
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1001, 1234);
@@ -511,7 +459,6 @@ INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1012, 2222);
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1013, 3333);
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1014, 4444);
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1015, 5555);
-
 
 --Etapa
 
