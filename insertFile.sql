@@ -106,7 +106,7 @@ INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaPr
 VALUES (4567, 9012345678, '2024-02-14', '2023-12-18', '16:10:00.000000', '15:15:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (5678, 7890123456, '2024-03-15', '2023-12-17', '17:00:00.000000', '16:45:00.000000', 0);
+VALUES (5679, 7890123456, '2024-03-15', '2023-12-17', '17:00:00.000000', '16:45:00.000000', 0);
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
 VALUES (0800, 1230123012, '2024-04-16', '2023-12-16', '18:30:00.000000', '17:30:00.000000', 0);
 
