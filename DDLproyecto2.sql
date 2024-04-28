@@ -122,7 +122,6 @@ CREATE TABLE Disputa(
 
 CREATE TABLE Etapa(
     id_etapa numeric(10),
-    motivo varchar(10),
     fechaProces date,
     descrEstado varchar(100),
     fechaFinalizada date,
