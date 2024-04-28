@@ -104,61 +104,107 @@ INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VAL
 
 --Cita
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (6789, 1230123012, '2024-04-16', '2023-12-16', '18:30:00.000000', '17:30:00.000000', 0);
+VALUES (0800, 1230123012, '2024-04-16', '2023-12-16', '18:30:00.000000', '17:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (7890, 2341234123, '2024-05-17', '2023-12-15', '19:45:00.000000', '18:00:00.000000', 0);
+VALUES (0801, 2341234123, '2024-05-17', '2023-12-15', '19:45:00.000000', '18:00:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (8901, 3452345234, '2024-06-18', '2023-12-14', '20:15:00.000000', '19:15:00.000000', 0);
+VALUES (0802, 3452345234, '2024-06-18', '2023-12-14', '20:15:00.000000', '19:15:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (9012, 4563456345, '2024-07-19', '2023-12-13', '21:00:00.000000', '20:30:00.000000', 0);
+VALUES (0803, 4563456345, '2024-07-19', '2023-12-13', '21:00:00.000000', '20:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (1011, 5674567456, '2024-08-20', '2023-12-12', '22:10:00.000000', '21:45:00.000000', 0);
+VALUES (0804, 5674567456, '2024-08-20', '2023-12-12', '22:10:00.000000', '21:45:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (1234, 6789012345, '2024-09-21', '2023-12-11', '13:30:00.000000', '12:00:00.000000', 0);
+VALUES (0805, 6789012345, '2024-09-21', '2023-12-11', '13:30:00.000000', '12:00:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (2345, 7890123456, '2024-10-22', '2023-12-10', '14:45:00.000000', '13:00:00.000000', 0);
+VALUES (0806, 7890123456, '2024-10-22', '2023-12-10', '14:45:00.000000', '13:00:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (3456, 6789012345, '2024-11-23', '2023-12-09', '15:20:00.000000', '14:30:00.000000', 0);
+VALUES (0807, 6789012345, '2024-11-23', '2023-12-09', '15:20:00.000000', '14:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (4567, 9012345678, '2024-12-24', '2023-12-08', '16:10:00.000000', '15:15:00.000000', 0);
+VALUES (0808, 9012345678, '2024-12-24', '2023-12-08', '16:10:00.000000', '15:15:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (5678, 7890123456, '2024-01-25', '2023-12-07', '17:00:00.000000', '16:45:00.000000', 0);
+VALUES (0809, 7890123456, '2024-01-25', '2023-12-07', '17:00:00.000000', '16:45:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (6789, 1230123012, '2024-02-26', '2023-12-06', '18:30:00.000000', '17:30:00.000000', 0);
+VALUES (0810, 1230123012, '2024-02-26', '2023-12-06', '18:30:00.000000', '17:30:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (7890, 2341234123, '2024-03-27', '2023-12-05', '19:45:00.000000', '18:00:00.000000', 0);
+VALUES (0811, 2341234123, '2024-03-27', '2023-12-05', '19:45:00.000000', '18:00:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (8901, 3452345234, '2024-04-28', '2023-12-04', '20:15:00.000000', '19:15:00.000000', 0);
+VALUES (0812, 3452345234, '2024-04-28', '2023-12-04', '20:15:00.000000', '19:15:00.000000', 0);
 
 INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (9012, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:00.000000', 0);
-
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (1011, 5674567456, '2024-06-30', '2023-12-02', '22:10:00.000000', '21:45:00.000000', 0);
-
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (1234, 6789012345, '2024-07-01', '2023-12-01', '13:30:00.000000', '12:00:00.000000', 0);
-
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (2345, 7890123456, '2024-08-02', '2023-11-30', '14:45:00.000000', '13:00:00.000000', 0);
-
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
-VALUES (3456, 6789012345, '2024-09-03', '2023-11-29', '15:20:00.000000', '14:30:00.000000', 0);
+VALUES (0813, 4563456345, '2024-05-29', '2023-12-03', '21:00:00.000000', '20:30:00.000000', 0);
 
 --MotivoCita
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
 
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (234567890, 'María García', '2345678901', 234567890);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (234567890, 'María García', '2345678901', 234567890);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (123012301, 'David Sánchez', '0123456789', 123012301);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (234123412, 'Julia Fernández', '1234567890', 234123412)
 
 --PersonalMedico
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567890, 'Juan Pérez', 'Medico', 'Masculino', 'Calle 123', 1234);
@@ -299,51 +345,39 @@ INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente) VALUES (20003, 234012
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (1, 'Salud', 5000.00, 1001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (2, 'Muerte', 8000.00, 1002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (3, 'Consultas médicas', 10000.00, 1003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (4, 'Salud', 5500.00, 2001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (5, 'Muerte', 8500.00, 2002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (6, 'Consultas médicas', 11000.00, 2003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (7, 'Salud', 6000.00, 3001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (8, 'Muerte', 9000.00, 3002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (9, 'Consultas médicas', 12000.00, 3003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (10, 'Salud', 6500.00, 4001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (11, 'Muerte', 9500.00, 4002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (12, 'Consultas médicas', 13000.00, 4003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (13, 'Salud', 7000.00, 5001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (14, 'Muerte', 10000.00, 5002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (15, 'Consultas médicas', 14000.00, 5003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (16, 'Salud', 7500.00, 6001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (17, 'Muerte', 10500.00, 6002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (18, 'Consultas médicas', 15000.00, 6003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (19, 'Salud', 8000.00, 7001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (20, 'Muerte', 11000.00, 7002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (21, 'Consultas médicas', 16000.00, 7003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (22, 'Salud', 8500.00, 8001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (23, 'Muerte', 11500.00, 8002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (24, 'Consultas médicas', 17000.00, 8003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (25, 'Salud', 9000.00, 9001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (26, 'Muerte', 12000.00, 9002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (27, 'Consultas médicas', 18000.00, 9003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (28, 'Salud', 9500.00, 10001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (29, 'Muerte', 12500.00, 10002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (30, 'Consultas médicas', 19000.00, 10003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (31, 'Salud', 10000.00, 11001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (32, 'Muerte', 13000.00, 11002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (33, 'Consultas médicas', 20000.00, 11003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (34, 'Salud', 10500.00, 12001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (35, 'Muerte', 13500.00, 12002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (36, 'Consultas médicas', 21000.00, 12003);
-
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (37, 'Salud', 11000.00, 13001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (38, 'Muerte', 14000.00, 13002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (39, 'Consultas médicas', 22000.00, 13003);
@@ -462,6 +496,22 @@ INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoRec
 VALUES (8888, 'Problemas de comunicación con el personal', '2024-09-03', '2024-09-05','2024-09-08', 300.00, 200.00, 'Pagado Parcial', 3456, 678901234, 3002);  
 
 --Disputa
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1001, 1234);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1002, 2345);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1003, 3456);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1004, 4567);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1005, 5678);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1006, 6789);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1007, 7890);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1008, 8901);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1009, 9012);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1010, 1011);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1011, 1111);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1012, 2222);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1013, 3333);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1014, 4444);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1015, 5555);
+
 
 --Etapa
 
