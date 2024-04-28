@@ -1,5 +1,4 @@
 --Paciente
---Paciente
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Juan', 1234567890, '15/05/90', 'Masculino');
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('María', 2345678901, '20/08/85', 'Femenino');
 INSERT INTO Paciente (nombre, cedulaPaciente, fechaNacimiento, sexo) VALUES ('Carlos', 3456789012, '10/12/78', 'Masculino');
