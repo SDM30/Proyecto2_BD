@@ -421,48 +421,48 @@ INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (
 INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10', 4001);
 
 --PersonaContactoCo
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (234567890, 'María García', '2345678901', 234567890);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (345678901, 'Pedro López', '3456789012', 345678901);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456)
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (965994336, 'Juan Pérez', '1234567890', 123456789);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (363265967, 'María García', '2345678901', 234567890);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (987644737, 'Pedro López', '3456789012', 345678901);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (965437976, 'Ana Martínez', '4567890123', 456789012);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (587634428, 'Luis Rodríguez', '5678901234', 567890123);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (363269960, 'Laura Gómez', '6789012345', 678901234);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (288065362, 'Carlos Hernández', '7890123456', 789012345);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (177543359, 'Sofía Díaz', '8901234567', 890123456)
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (274975724, 'Elena Ruiz', '9012345678', 901234567);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
+VALUES (247924622, 'Juan Pérez', '1234567890', 123456789);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (234567890, 'María García', '2345678901', 234567890);
+VALUES (248924793, 'María García', '2345678901', 234567890);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+VALUES (330204464, 'Pedro López', '3456789012', 345678901);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+VALUES (239474629, 'Ana Martínez', '4567890123', 456789012);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+VALUES (202484628, 'Luis Rodríguez', '5678901234', 567890123);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+VALUES (429479792, 'Laura Gómez', '6789012345', 678901234);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+VALUES (283074626, 'Carlos Hernández', '7890123456', 789012345);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
+VALUES (983628282, 'Sofía Díaz', '8901234567', 890123456);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+VALUES (913563672, 'Elena Ruiz', '9012345678', 901234567);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (123012301, 'David Sánchez', '0123456789', 123012301);
+VALUES (130307365, 'David Sánchez', '0123456789', 123012301);
 
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (234123412, 'Julia Fernández', '1234567890', 234123412);
+VALUES (189837611, 'Julia Fernández', '1234567890', 234123412);
 
 --Reclamo
 INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
