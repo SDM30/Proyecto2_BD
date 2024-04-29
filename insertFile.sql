@@ -430,39 +430,8 @@ INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (363269
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (288065362, 'Carlos Hernández', '7890123456', 789012345);
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (177543359, 'Sofía Díaz', '8901234567', 890123456)
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (274975724, 'Elena Ruiz', '9012345678', 901234567);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (102982719, 'Melissa Ruiz', '3166781222', 123012301);
 
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (247924622, 'Juan Pérez', '1234567890', 123456789);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (248924793, 'María García', '2345678901', 234567890);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (330204464, 'Pedro López', '3456789012', 345678901);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (239474629, 'Ana Martínez', '4567890123', 456789012);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (202484628, 'Luis Rodríguez', '5678901234', 567890123);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (429479792, 'Laura Gómez', '6789012345', 678901234);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (283074626, 'Carlos Hernández', '7890123456', 789012345);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (983628282, 'Sofía Díaz', '8901234567', 890123456);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (913563672, 'Elena Ruiz', '9012345678', 901234567);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (130307365, 'David Sánchez', '0123456789', 123012301);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (189837611, 'Julia Fernández', '1234567890', 234123412);
 
 --Reclamo
 INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
