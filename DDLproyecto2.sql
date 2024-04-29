@@ -60,6 +60,14 @@ CREATE TABLE Titulo(
     primary key(nombreTitulo, cedulaPM)
 );
 
+CREATE TABLE companiaPoliza(
+    NIT numeric(10) not NULL,
+    nombre varchar(30) not Null,
+    direccion varchar(30) not NULL,
+    dirIP varchar(30) not NULL,
+    primary key(NIT)
+);
+
 CREATE TABLE PolizaProyecto2(
     polizaNumero numeric(10) not NULL,
     cedulaPaciente number(10,0) not NULL,
@@ -76,14 +84,6 @@ CREATE TABLE tipoCubrimiento(
     polizaNumero numeric(10),
     foreign key (polizaNumero) references PolizaProyecto2 on delete set null,
     primary key(idTC)
-);
-
-CREATE TABLE companiaPoliza(
-    NIT numeric(10) not NULL,
-    nombre varchar(30) not Null,
-    direccion varchar(30) not NULL,
-    dirIP varchar(30) not NULL,
-    primary key(NIT)
 );
 
 CREATE TABLE personaContactoCo(
