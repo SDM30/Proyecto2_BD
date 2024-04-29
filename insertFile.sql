@@ -428,98 +428,131 @@ INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (965437
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (587634428, 'Luis Rodríguez', '5678901234', 567890123);
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (363269960, 'Laura Gómez', '6789012345', 678901234);
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (288065362, 'Carlos Hernández', '7890123456', 789012345);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (177543359, 'Sofía Díaz', '8901234567', 890123456)
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (177543359, 'Sofía Díaz', '8901234567', 890123456);
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (274975724, 'Elena Ruiz', '9012345678', 901234567);
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (102982719, 'Melissa Ruiz', '3166781222', 123012301);
 
+-- Reclamo
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (1234, 'Demora en el servicio', '16/04/2024', '18/04/2024', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
 
---Reclamo
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (2345, 'Facturación incorrecta', '2024-05-17', '2024-05-19', '2024-05-23', 200.00, 50.00, 'Pagado Parcial', 7890, 234567890, 1002);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (3456, 'Tratamiento incorrecto', '2024-06-18', '2024-06-20', '2024-06-24', 800.00, 400.00, 'Pagado Parcial', 8901, 345678901, 1003);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (4567, 'Negligencia médica', '2024-07-19', '2024-07-21', '2024-07-28', 1200.00, 1200.00, 'Pagado', 9012, 456789012, 2001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (5678, 'Medicación equivocada', '2024-08-20', '2024-08-22', '2024-08-26', 300.00, 100.00, 'Pagado Parcial', 1011, 567890123, 2002);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (6789, 'Infección post-operatoria', '2024-09-21', '2024-09-23', '2024-09-27', 1500.00, 500.00, 'Pagado Parcial', 1234, 678901234, 2003);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (7890, 'Diagnóstico erróneo', '2024-10-22', '2024-10-24','2024-10-28', 600.00, 300.00, 'Pagado Parcial', 2345, 789012345, 3001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (8901, 'Daño durante cirugía', '2024-11-23', '2024-11-25', '2024-12-02', 2000.00, 2000.00, 'Pagado', 3456, 678901234, 3002);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (9012, 'Falta de equipo necesario', '2024-12-24', '2024-12-26', '2024-12-29', 400.00, 200.00, 'Pagado Parcial', 4567, 901234567, 3003);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1011, 'Trato inapropiado del personal', '2024-01-25', '2024-01-27','2024-01-30', 700.00, 350.00, 'Pagado Parcial', 5678, 789012345, 4001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1111, 'Cancelación de cita no informada', '2024-02-26', '2024-02-28', NULL, 100.00, 0.00, 'Denegado', 6789, 123456789, 1001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (2222, 'Procedimiento no autorizado', '2024-03-27', '2024-03-29', '2024-03-31', 800.00, 400.00, 'Pagado Parcial', 7890, 234567890, 1002);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (3333, 'Resultado de análisis incorrecto', '2024-04-28', '2024-04-29', '2024-04-30', 400.00, 100.00, 'Pagado Parcial', 8901, 345678901, 1003);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (4444, 'Espera excesiva en la sala de espera', '2024-05-28', '2024-05-29', '2024-05-30', 200.00, 100.00, 'Pagado Parcial', 9012, 456789012, 2001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (5555, 'Problemas con el equipo médico', '2024-06-30', '2024-07-02', '2024-07-06', 1500.00, 500.00, 'Pagado Parcial', 1011, 567890123, 2002);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (6666, 'Errores en el historial clínico', '2024-07-01', '2024-07-03', '2024-07-07', 600.00, 300.00, 'Pagado Parcial', 1234, 678901234, 2003);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (7777, 'Cobros indebidos', '2024-08-02', '2024-08-04', '2024-08-08', 1000.00, 900.00, 'Pagado Parcial', 2345, 789012345, 3001);
-INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (8888, 'Problemas de comunicación con el personal', '2024-09-03', '2024-09-05','2024-09-08', 300.00, 200.00, 'Pagado Parcial', 3456, 678901234, 3002);  
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (2345, 'Facturación incorrecta', '17/05/2024', '19/05/2024', '23/05/2024', 200.00, 50.00, 'Pagado Parcial', 7890, 234567890, 1002);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (3456, 'Tratamiento incorrecto', '18/06/2024', '20/06/2024', '24/06/2024', 800.00, 400.00, 'Pagado Parcial', 8901, 345678901, 1003);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (4567, 'Negligencia médica', '19/07/2024', '21/07/2024', '28/07/2024', 1200.00, 1200.00, 'Pagado', 9012, 456789012, 2001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (5678, 'Medicación equivocada', '20/08/2024', '22/08/2024', '26/08/2024', 300.00, 100.00, 'Pagado Parcial', 1011, 567890123, 2002);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (6789, 'Infección post-operatoria', '21/09/2024', '23/09/2024', '27/09/2024', 1500.00, 500.00, 'Pagado Parcial', 1234, 678901234, 2003);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (7890, 'Diagnóstico erróneo', '22/10/2024', '24/10/2024','28/10/2024', 600.00, 300.00, 'Pagado Parcial', 2345, 789012345, 3001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (8901, 'Daño durante cirugía', '23/11/2024', '25/11/2024', '02/12/2024', 2000.00, 2000.00, 'Pagado', 3456, 678901234, 3002);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (9012, 'Falta de equipo necesario', '24/12/2024', '26/12/2024', '29/12/2024', 400.00, 200.00, 'Pagado Parcial', 4567, 901234567, 3003);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (1011, 'Trato inapropiado del personal', '25/01/2024', '27/01/2024','30/01/2024', 700.00, 350.00, 'Pagado Parcial', 5678, 789012345, 4001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (1111, 'Cancelación de cita no informada', '26/02/2024', '28/02/2024', NULL, 100.00, 0.00, 'Denegado', 6789, 123456789, 1001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (2222, 'Procedimiento no autorizado', '27/03/2024', '29/03/2024', '31/03/2024', 800.00, 400.00, 'Pagado Parcial', 7890, 234567890, 1002);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (3333, 'Resultado de análisis incorrecto', '28/04/2024', '29/04/2024', '30/04/2024', 400.00, 100.00, 'Pagado Parcial', 8901, 345678901, 1003);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (4444, 'Espera excesiva en la sala de espera', '28/05/2024', '29/05/2024', '30/05/2024', 200.00, 100.00, 'Pagado Parcial', 9012, 456789012, 2001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (5555, 'Problemas con el equipo médico', '30/06/2024', '02/07/2024', '06/07/2024', 1500.00, 500.00, 'Pagado Parcial', 1011, 567890123, 2002);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (6666, 'Errores en el historial clínico', '01/07/2024', '03/07/2024', '07/07/2024', 600.00, 300.00, 'Pagado Parcial', 1234, 678901234, 2003);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (7777, 'Cobros indebidos', '02/08/2024', '04/08/2024', '08/08/2024', 1000.00, 900.00, 'Pagado Parcial', 2345, 789012345, 3001);
+
+INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) 
+VALUES (8888, 'Problemas de comunicación con el personal', '03/09/2024', '05/09/2024','08/09/2024', 300.00, 200.00, 'Pagado Parcial', 3456, 678901234, 3002);
+
 
 --Disputa
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1341, 1234);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1132, 2345);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1244, 3456);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1544, 4567);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1643, 5678);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1356, 6789);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1466, 7890);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1245, 8901);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1786, 9012);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1357, 1011);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1055, 1111);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1465, 2222);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1256, 3333);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1266, 4444);
-INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (3662, 5555);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1001, 1234);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1002, 2345);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1003, 3456);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1004, 4567);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1005, 5678);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1006, 6789);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1007, 7890);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1008, 8901);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1009, 9012);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1010, 1011);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1011, 1111);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1012, 2222);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1013, 3333);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1014, 4444);
+INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1015, 5555);
 
 --Etapa
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9240,'Retraso', '2024-04-30', 'En proceso', NULL, 1234, 1234567890, 1341);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9476, 'Retraso', '2024-05-01', 'En revisión', NULL, 2345, 2345678901, 1132);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3906, 'Retraso', '2024-05-02', 'En espera', NULL, 3456, 3456789012, 1244);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3847, 'Retraso', '2024-05-03', 'En proceso', NULL, 4567, 4567890123, 1544);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2084, 'Retraso', '2024-05-04', 'En revisión', NULL, 5678, 5678901234, 1643);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0284, 'Retraso', '2024-05-05', 'En espera', NULL, 6789, 6789012345, 1356);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2753, 'Retraso', '2024-05-06', 'En proceso', NULL, 7890, 7890123456, 1466);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2935, 'Retraso', '2024-05-07', 'En revisión', NULL, 8901, 8901234567, 1245);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0385, 'Retraso', '2024-05-08', 'En espera', NULL, 9012, 9012345678, 1786);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2724, 'Retraso', '2024-05-09', 'En proceso', NULL, 1011, 1234567890, 1357);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2648, 'Retraso', '2024-05-10', 'En revisión', NULL, 1234, 2345678901, 1055);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2390, 'Retraso', '2024-05-11', 'En espera', NULL, 2345, 3456789012, 1465);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3333, 'Retraso', '2024-05-12', 'En proceso', NULL, 3456, 4567890123, 1256);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4422, 'Retraso', '2024-05-13', 'En revisión', NULL, 4567, 5678901234, 1266);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2037, 'Retraso', '2024-05-04', 'Finalizado', '2024-05-10', 5678, 5678901234, 3662);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4280, 'Retraso', '2024-05-05', 'Finalizado', '2024-05-11', 6789, 6789012345, 3662);
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (7839, 'Retraso','2024-05-06', 'Finalizado', '2024-05-12', 7890, 7890123456, 1465);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (9240,'Retraso', '30/04/2024', 'En proceso', NULL, 1234, 1234567890, 1001);
 
---Razon
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3456, 'Producto defectuoso', 1234);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9088, 'Cobro indebido', 2345);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (8977, 'Servicio incompleto', 3456);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5788, 'Retraso en la entrega', 4567);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5855, 'Mala atención al cliente', 5678);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (6467, 'Facturación errónea', 6789);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3774, 'Producto dañado durante el envío', 7890);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3567, 'Incumplimiento de contrato', 8901);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9899, 'Negligencia en el servicio', 9012);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5888, 'Inadecuada resolución de problema', 1011);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9665, 'Cambio no autorizado', 1111);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3674, 'Devolución no procesada', 1234);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (2663, 'Política de reembolso no respetada', 2345);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (1367, 'Servicio al cliente no disponible', 3456);
-INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (2661, 'Información engañosa', 4567);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (9476, 'Retraso', '01/05/2024', 'En revisión', NULL, 2345, 2345678901, 1002);
 
---ReclamoGenerado
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9240, 3456);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9476, 9088);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3906, 8977);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3847, 5788);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2084, 5855);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0284, 6467);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2753, 3774);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2935, 3567);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0385, 9899);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2724, 5888);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2648, 9665);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2390, 3674);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3333, 2663);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (4422, 1367);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2037, 2661);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (3906, 'Retraso', '02/05/2024', 'En espera', NULL, 3456, 3456789012, 1003);
 
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (3847, 'Retraso', '03/05/2024', 'En proceso', NULL, 4567, 4567890123, 1004);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2084, 'Retraso', '04/05/2024', 'En revisión', NULL, 5678, 5678901234, 1005);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (0284, 'Retraso', '05/05/2024', 'En espera', NULL, 6789, 6789012345, 1006);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2753, 'Retraso', '06/05/2024', 'En proceso', NULL, 7890, 7890123456, 1007);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2935, 'Retraso', '07/05/2024', 'En revisión', NULL, 8901, 8901234567, 1008);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (0385, 'Retraso', '08/05/2024', 'En espera', NULL, 9012, 9012345678, 1009);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2724, 'Retraso', '09/05/2024', 'En proceso', NULL, 1011, 1234567890, 1010);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2648, 'Retraso', '10/05/2024', 'En revisión', NULL, 1234, 2345678901, 1011);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2390, 'Retraso', '11/05/2024', 'En espera', NULL, 2345, 3456789012, 1012);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (3333, 'Retraso', '12/05/2024', 'En proceso', NULL, 3456, 4567890123, 1013);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (4422, 'Retraso', '13/05/2024', 'En revisión', NULL, 4567, 5678901234, 1014);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (2037, 'Retraso', '04/05/2024', 'Finalizado', '10/05/2024', 5678, 5678901234, 1015);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (4280, 'Retraso', '05/05/2024', 'Finalizado', '11/05/2024', 6789, 6789012345, 1015);
+
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
+VALUES (7839, 'Retraso','06/05/2024', 'Finalizado', '12/05/2024', 7890, 7890123456, 1015);
