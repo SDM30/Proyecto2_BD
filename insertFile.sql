@@ -66,41 +66,89 @@ INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VAL
 INSERT INTO Acudiente (nombre, cedula, parentesco, telefono, pacienteCedula) VALUES ('María Pérez', 2121212121, 'Padre', 2340123012, 2340123012);
 
 --Cita
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (1234, 6789012345, '01/01/24', '31/12/23', TO_TIMESTAMP('13:30', 'HH24:MI'), TO_TIMESTAMP('12:00', 'HH24:MI'), 75000);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1234, 6789012345, '01/01/2024', '31/12/2023', TO_TIMESTAMP('13:30', 'HH24:MI'), TO_TIMESTAMP('12:00', 'HH24:MI'), 75000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (2345, 7890123456, '02/02/24', '30/12/23', TO_TIMESTAMP('14:45', 'HH24:MI'), TO_TIMESTAMP('13:00', 'HH24:MI'), 100000);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2345, 7890123456, '02/02/2024', '30/12/2023', TO_TIMESTAMP('14:45', 'HH24:MI'), TO_TIMESTAMP('13:00', 'HH24:MI'), 100000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (3456, 6789012345, '03/03/24', '29/12/23', TO_TIMESTAMP('15:20', 'HH24:MI'), TO_TIMESTAMP('14:30', 'HH24:MI'), 55000);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3456, 6789012345, '03/03/2024', '29/12/2023', TO_TIMESTAMP('15:20', 'HH24:MI'), TO_TIMESTAMP('14:30', 'HH24:MI'), 55000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0805, 6789012345, '21/09/24', '11/12/23', TO_TIMESTAMP('13:30', 'HH24:MI'), TO_TIMESTAMP('12:00', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (5678, 7890123456, '05/05/2024', '27/12/2023', TO_TIMESTAMP('17:00', 'HH24:MI'), TO_TIMESTAMP('16:45', 'HH24:MI'), 200000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0806, 7890123456, '22/10/24', '10/12/23', TO_TIMESTAMP('14:45', 'HH24:MI'), TO_TIMESTAMP('13:00', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (6789, 1230123012, '06/06/2024', '26/12/2023', TO_TIMESTAMP('18:30', 'HH24:MI'), TO_TIMESTAMP('17:30', 'HH24:MI'), 60000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0807, 6789012345, '23/11/24', '09/12/23', TO_TIMESTAMP('15:20', 'HH24:MI'), TO_TIMESTAMP('14:30', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (7890, 2341234123, '07/07/2024', '25/12/2023', TO_TIMESTAMP('19:45', 'HH24:MI'), TO_TIMESTAMP('18:00', 'HH24:MI'), 85000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0808, 9012345678, '24/12/24', '08/12/23', TO_TIMESTAMP('16:10', 'HH24:MI'), TO_TIMESTAMP('15:15', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (8901, 3452345234, '08/08/2024', '24/12/2023', TO_TIMESTAMP('20:15', 'HH24:MI'), TO_TIMESTAMP('19:15', 'HH24:MI'), 150000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0809, 7890123456, '25/01/24', '07/12/23', TO_TIMESTAMP('17:00', 'HH24:MI'), TO_TIMESTAMP('16:45', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (9012, 4563456345, '09/09/2024', '23/12/2023', TO_TIMESTAMP('21:00', 'HH24:MI'), TO_TIMESTAMP('20:30', 'HH24:MI'), 70000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0810, 1230123012, '26/02/24', '06/12/23', TO_TIMESTAMP('18:30', 'HH24:MI'), TO_TIMESTAMP('17:30', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1011, 5674567456, '10/10/2024', '22/12/2023', TO_TIMESTAMP('22:10', 'HH24:MI'), TO_TIMESTAMP('21:45', 'HH24:MI'), 95000);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0811, 2341234123, '27/03/24', '05/12/23', TO_TIMESTAMP('19:45', 'HH24:MI'), TO_TIMESTAMP('18:00', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (1235, 6789012345, '11/11/2024', '21/12/2023', TO_TIMESTAMP('13:30', 'HH24:MI'), TO_TIMESTAMP('12:00', 'HH24:MI'), 0);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0812, 3452345234, '28/04/24', '04/12/23', TO_TIMESTAMP('20:15', 'HH24:MI'), TO_TIMESTAMP('19:15', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (2346, 7890123456, '12/12/2024', '20/12/2023', TO_TIMESTAMP('14:45', 'HH24:MI'), TO_TIMESTAMP('13:00', 'HH24:MI'), 0);
 
-INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular) 
-VALUES (0813, 4563456345, '29/05/24', '03/12/23', TO_TIMESTAMP('21:00', 'HH24:MI'), TO_TIMESTAMP('20:30', 'HH24:MI'), 0);
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (3457, 6789012345, '13/01/2024', '19/12/2023', TO_TIMESTAMP('15:20', 'HH24:MI'), TO_TIMESTAMP('14:30', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (4567, 9012345678, '14/02/2024', '18/12/2023', TO_TIMESTAMP('16:10', 'HH24:MI'), TO_TIMESTAMP('15:15', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (5679, 7890123456, '15/03/2024', '17/12/2023', TO_TIMESTAMP('17:00', 'HH24:MI'), TO_TIMESTAMP('16:45', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0800, 1230123012, '16/04/2024', '16/12/2023', TO_TIMESTAMP('18:30', 'HH24:MI'), TO_TIMESTAMP('17:30', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0801, 2341234123, '17/05/2024', '15/12/2023', TO_TIMESTAMP('19:45', 'HH24:MI'), TO_TIMESTAMP('18:00', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0802, 3452345234, '18/06/2024', '14/12/2023', TO_TIMESTAMP('20:15', 'HH24:MI'), TO_TIMESTAMP('19:15', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0803, 4563456345, '19/07/2024', '13/12/2023', TO_TIMESTAMP('21:00', 'HH24:MI'), TO_TIMESTAMP('20:30', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0804, 5674567456, '20/08/2024', '12/12/2023', TO_TIMESTAMP('22:10', 'HH24:MI'), TO_TIMESTAMP('21:45', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0805, 6789012345, '21/09/2024', '11/12/2023', TO_TIMESTAMP('13:30', 'HH24:MI'), TO_TIMESTAMP('12:00', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0806, 7890123456, '22/10/2024', '10/12/2023', TO_TIMESTAMP('14:45', 'HH24:MI'), TO_TIMESTAMP('13:00', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0807, 6789012345, '23/11/2024', '09/12/2023', TO_TIMESTAMP('15:20', 'HH24:MI'), TO_TIMESTAMP('14:30', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0808, 9012345678, '24/12/2024', '08/12/2023', TO_TIMESTAMP('16:10', 'HH24:MI'), TO_TIMESTAMP('15:15', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0809, 7890123456, '25/01/2024', '07/12/2023', TO_TIMESTAMP('17:00', 'HH24:MI'), TO_TIMESTAMP('16:45', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0810, 1230123012, '26/02/2024', '06/12/2023', TO_TIMESTAMP('18:30', 'HH24:MI'), TO_TIMESTAMP('17:30', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0811, 2341234123, '27/03/2024', '05/12/2023', TO_TIMESTAMP('19:45', 'HH24:MI'), TO_TIMESTAMP('18:00', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0812, 3452345234, '28/04/2024', '04/12/2023', TO_TIMESTAMP('20:15', 'HH24:MI'), TO_TIMESTAMP('19:15', 'HH24:MI'), 0);
+
+INSERT INTO Cita (Id_cita, pacienteCedula, fechaCita, fechaPro, horaCita, horaProg, pagoParticular)
+VALUES (0813, 4563456345, '29/05/2024', '03/12/2023', TO_TIMESTAMP('21:00', 'HH24:MI'), TO_TIMESTAMP('20:30', 'HH24:MI'), 0);
 
 --MotivoCita
 
@@ -183,51 +231,6 @@ INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0041, 'Consulta
 
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0042, 'Control de desarrollo infantil', 2345);
 
-
---PersonaContactoCo
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (234567890, 'María García', '2345678901', 234567890);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (345678901, 'Pedro López', '3456789012', 345678901);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456)
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (234567890, 'María García', '2345678901', 234567890);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (345678901, 'Pedro López', '3456789012', 345678901);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (123012301, 'David Sánchez', '0123456789', 123012301);
-
-INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
-VALUES (234123412, 'Julia Fernández', '1234567890', 234123412)
-
 --PersonalMedico
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567890, 'Juan Pérez', 'Medico', 'Masculino', 'Calle 123', 1234);
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (2345678901, 'María González', 'Enfermero', 'Femenino', 'Avenida Principal', 2345);
@@ -238,17 +241,17 @@ INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) V
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (7890123456, 'Laura Ramirez', 'Radiologo', 'Femenino', 'Avenida Sur', 7890);
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (8901234567, 'Diego Gomez', 'Medico', 'Masculino', 'Calle 10', 8901);
 INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (9012345678, 'Sofia Vargas', 'Enfermero', 'Femenino', 'Carrera 20', 9012);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567890, 'Martin Perez', 'Asistente medico', 'Masculino', 'Avenida Norte', 1011);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (2345678901, 'Carmen Lopez', 'Psicologo', 'Femenino', 'Calle 20', 1234);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (3456789012, 'Jose Gonzalez', 'Neurologo', 'Masculino', 'Avenida Principal', 2345);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (4567890123, 'Andrea Martinez', 'Ortopedista', 'Femenino', 'Carrera 15', 3456);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (5678901234, 'Manuel Ramirez', 'Radiologo', 'Masculino', 'Calle 5', 4567);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (6789012345, 'Lucia Gomez', 'Medico', 'Femenino', 'Avenida Bolivar', 5678);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (7890123456, 'Luis Hernández', 'Enfermero', 'Masculino', 'Calle 12', 6789);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (8901234567, 'Julia Sanchez', 'Asistente medico', 'Femenino', 'Carrera 30', 7890);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (9012345678, 'Daniel Vargas', 'Psicologo', 'Masculino', 'Avenida Norte', 8901);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567890, 'Ana Maria Rodriguez', 'Neurologo', 'Femenino', 'Calle 25', 9012);
-INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (2345678901, 'Eduardo Hernandez', 'Ortopedista', 'Masculino', 'Avenida Principal', 1011);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567891, 'Martin Perez', 'Asistente medico', 'Masculino', 'Avenida Norte', 1011);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (2345678902, 'Carmen Lopez', 'Psicologo', 'Femenino', 'Calle 20', 1234);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (3456789013, 'Jose Gonzalez', 'Neurologo', 'Masculino', 'Avenida Principal', 2345);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (4567890124, 'Andrea Martinez', 'Ortopedista', 'Femenino', 'Carrera 15', 3456);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (5678901235, 'Manuel Ramirez', 'Radiologo', 'Masculino', 'Calle 5', 4567);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (6789012346, 'Lucia Gomez', 'Medico', 'Femenino', 'Avenida Bolivar', 5678);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (7890123457, 'Luis Hernández', 'Enfermero', 'Masculino', 'Calle 12', 6789);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (8901234568, 'Julia Sanchez', 'Asistente medico', 'Femenino', 'Carrera 30', 7890);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (9012345679, 'Daniel Vargas', 'Psicologo', 'Masculino', 'Avenida Norte', 8901);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (1234567899, 'Ana Maria Rodriguez', 'Neurologo', 'Femenino', 'Calle 25', 9012);
+INSERT INTO personalMedico (cedulaPM, nombre, cargo, sexo, direccion, id_cita) VALUES (2345678905, 'Eduardo Hernandez', 'Ortopedista', 'Masculino', 'Avenida Principal', 1011);
 
 --Titulo
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Medico', 1234567890);
@@ -264,9 +267,9 @@ INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Asistente Medico', 12345678
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Psicologo', 2345678901);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Neurologo', 3456789012);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Ortopedista', 4567890123);
-INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Radiologo', 5678901234);
+INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Radiologo', 5678901235);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Medico', 6789012345);
-INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Enfermero', 7890123456);
+INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Enfermero', 7890123457);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Asistente Medico', 8901234567);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Psicologo', 9012345678);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Neurologo', 1234567890);
@@ -279,7 +282,6 @@ INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Radiologo', 3456789012);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Endocrinologo', 4567890123);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Medico', 4567890123);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Psicologo', 6789012345);
-INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Radiologo', 7890123456);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Dermatologo', 4567890123);
 
 --Poliza
@@ -417,6 +419,50 @@ INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (
 INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (890123456, 'Poliza H', '234 Calle Octava', '192.168.0.8', 3002);
 INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (901234567, 'Poliza I', '567 Calle Novena', '192.168.0.9', 3003);
 INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10', 4001);
+
+--PersonaContactoCo
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (234567890, 'María García', '2345678901', 234567890);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456)
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (123456789, 'Juan Pérez', '1234567890', 123456789);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (234567890, 'María García', '2345678901', 234567890);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (345678901, 'Pedro López', '3456789012', 345678901);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (456789012, 'Ana Martínez', '4567890123', 456789012);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (567890123, 'Luis Rodríguez', '5678901234', 567890123);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (678901234, 'Laura Gómez', '6789012345', 678901234);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (789012345, 'Carlos Hernández', '7890123456', 789012345);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (890123456, 'Sofía Díaz', '8901234567', 890123456);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (901234567, 'Elena Ruiz', '9012345678', 901234567);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (123012301, 'David Sánchez', '0123456789', 123012301);
+
+INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) 
+VALUES (234123412, 'Julia Fernández', '1234567890', 234123412);
 
 --Reclamo
 INSERT INTO Reclamo (codigoR, motivo, fechaSuceso, fechaReg, fechaPago, montoReclamo, montoPagado, estado, id_cita, CPNIT, polizaNumero) VALUES (1234, 'Demora en el servicio', '2024-04-16', '2024-04-18', NULL, 500.00, 0.00, 'Denegado', 6789, 123456789, 1001);
