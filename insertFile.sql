@@ -556,3 +556,8 @@ VALUES (4280, 'Retraso', '05/05/2024', 'Finalizado', '11/05/2024', 6789, 6789012
 
 INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
 VALUES (7839, 'Retraso','06/05/2024', 'Finalizado', '12/05/2024', 7890, 7890123456, 1015);
+
+
+----ReclamoGeneradoEtapa
+
+--Razon
