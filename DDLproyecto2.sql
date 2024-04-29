@@ -25,10 +25,10 @@ CREATE TABLE Acudiente(
 CREATE TABLE Cita(
     id_cita numeric(10),
     pacienteCedula numeric(10),
-    fechaCita date,
-    fechaPro date,
-    horaCita TIMESTAMP,
-    horaProg TIMESTAMP,
+    fechaCita date not NULL,
+    fechaPro date not NULL,
+    horaCita TIMESTAMP (0),
+    horaProg TIMESTAMP (0),
     pagoParticular number(10,2),
     foreign key (pacienteCedula) references Paciente on delete set null,
     primary key(id_cita)
@@ -116,7 +116,6 @@ CREATE TABLE Reclamo(
 CREATE TABLE Disputa(
     id_disputa numeric(10),
     reclamoCod numeric(10),
-    motivo varchar(100),
     foreign key (reclamoCod) references Reclamo on delete set null,
     primary key(id_disputa)
 );
