@@ -8,16 +8,6 @@ CREATE TABLE Paciente (
 
 CREATE TABLE Alergias(
     tipoAlergia varchar(30) not NULL,
-    pacienteCedula number(10,0) not NULL unique,CREATE TABLE Paciente (
-    nombre varchar(30) unique not NULL,
-    cedulaPaciente number(10,0) not NULL,
-    fechaNacimiento date not NULL,
-    sexo varchar(10) CHECK (sexo = 'Masculino' OR sexo ='Femenino') NOT null,
-    primary key(cedulaPaciente)
-);
-
-CREATE TABLE Alergias(
-    tipoAlergia varchar(30) not NULL,
     pacienteCedula number(10,0) not NULL unique,
     foreign key (pacienteCedula) references Paciente on delete set null,
     primary key(tipoAlergia, pacienteCedula)
@@ -160,7 +150,17 @@ CREATE TABLE Razon(
     foreign key (reclamoCod) references Reclamo on delete set null,
     primary key(codRazon)
 );
+CREATE TABLE Paciente (
+    nombre varchar(30) unique not NULL,
+    cedulaPaciente number(10,0) not NULL,
+    fechaNacimiento date not NULL,
+    sexo varchar(10) CHECK (sexo = 'Masculino' OR sexo ='Femenino') NOT null,
+    primary key(cedulaPaciente)
+);
 
+CREATE TABLE Alergias(
+    tipoAlergia varchar(30) not NULL,
+    pacienteCedula number(10,0) not NULL unique,
     foreign key (pacienteCedula) references Paciente on delete set null,
     primary key(tipoAlergia, pacienteCedula)
 );
@@ -274,6 +274,7 @@ CREATE TABLE Disputa(
 
 CREATE TABLE Etapa(
     id_etapa numeric(10),
+    motivo varchar(100),
     fechaProces date,
     descrEstado varchar(100),
     fechaFinalizada date,
