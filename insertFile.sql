@@ -471,23 +471,23 @@ INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1266, 4444);
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (3662, 5555);
 
 --Etapa
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9240, '2024-04-30', 'En proceso', NULL, 1234, 1234567890, 1341);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9476, '2024-05-01', 'En revisión', NULL, 2345, 2345678901, 1132);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3906, '2024-05-02', 'En espera', NULL, 3456, 3456789012, 1244);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3847, '2024-05-03', 'En proceso', NULL, 4567, 4567890123, 1544);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2084, '2024-05-04', 'En revisión', NULL, 5678, 5678901234, 1643);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0284, '2024-05-05', 'En espera', NULL, 6789, 6789012345, 1356);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2753, '2024-05-06', 'En proceso', NULL, 7890, 7890123456, 1466);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2935, '2024-05-07', 'En revisión', NULL, 8901, 8901234567, 1245);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0385, '2024-05-08', 'En espera', NULL, 9012, 9012345678, 1786);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2724, '2024-05-09', 'En proceso', NULL, 1011, 1234567890, 1357);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2648, '2024-05-10', 'En revisión', NULL, 1234, 2345678901, 1055);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2390, '2024-05-11', 'En espera', NULL, 2345, 3456789012, 1465);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3333, '2024-05-12', 'En proceso', NULL, 3456, 4567890123, 1256);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4422, '2024-05-13', 'En revisión', NULL, 4567, 5678901234, 1266);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2037, '2024-05-04', 'Finalizado', '2024-05-10', 5678, 5678901234, 3662);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4280, '2024-05-05', 'Finalizado', '2024-05-11', 6789, 6789012345, 3662);
-INSERT INTO Etapa (id_etapa, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (7839, '2024-05-06', 'Finalizado', '2024-05-12', 7890, 7890123456, 1465);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9240,'Retraso', '2024-04-30', 'En proceso', NULL, 1234, 1234567890, 1341);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9476, 'Retraso', '2024-05-01', 'En revisión', NULL, 2345, 2345678901, 1132);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3906, 'Retraso', '2024-05-02', 'En espera', NULL, 3456, 3456789012, 1244);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3847, 'Retraso', '2024-05-03', 'En proceso', NULL, 4567, 4567890123, 1544);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2084, 'Retraso', '2024-05-04', 'En revisión', NULL, 5678, 5678901234, 1643);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0284, 'Retraso', '2024-05-05', 'En espera', NULL, 6789, 6789012345, 1356);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2753, 'Retraso', '2024-05-06', 'En proceso', NULL, 7890, 7890123456, 1466);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2935, 'Retraso', '2024-05-07', 'En revisión', NULL, 8901, 8901234567, 1245);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0385, 'Retraso', '2024-05-08', 'En espera', NULL, 9012, 9012345678, 1786);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2724, 'Retraso', '2024-05-09', 'En proceso', NULL, 1011, 1234567890, 1357);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2648, 'Retraso', '2024-05-10', 'En revisión', NULL, 1234, 2345678901, 1055);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2390, 'Retraso', '2024-05-11', 'En espera', NULL, 2345, 3456789012, 1465);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3333, 'Retraso', '2024-05-12', 'En proceso', NULL, 3456, 4567890123, 1256);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4422, 'Retraso', '2024-05-13', 'En revisión', NULL, 4567, 5678901234, 1266);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2037, 'Retraso', '2024-05-04', 'Finalizado', '2024-05-10', 5678, 5678901234, 3662);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4280, 'Retraso', '2024-05-05', 'Finalizado', '2024-05-11', 6789, 6789012345, 3662);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (7839, 'Retraso','2024-05-06', 'Finalizado', '2024-05-12', 7890, 7890123456, 1465);
 
 --Razon
 
