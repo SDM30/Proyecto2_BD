@@ -284,6 +284,18 @@ INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Medico', 4567890123);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Psicologo', 6789012345);
 INSERT INTO Titulo (nombreTitulo, cedulaPM) VALUES ('Dermatologo', 4567890123);
 
+--CompaniaPoliza
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (123456789, 'Poliza A', '123 Calle Principal', '192.168.0.1');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (234567890, 'Poliza B', '456 Calle Secundaria', '192.168.0.2');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (345678901, 'Poliza C', '789 Calle Terciaria', '192.168.0.3');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (456789012, 'Poliza D', '012 Calle Cuarta', '192.168.0.4');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (567890123, 'Poliza E', '345 Calle Quinta', '192.168.0.5');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (678901234, 'Poliza F', '678 Calle Sexta', '192.168.0.6');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (789012345, 'Poliza G', '901 Calle Séptima', '192.168.0.7');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (890123456, 'Poliza H', '234 Calle Octava', '192.168.0.8');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (901234567, 'Poliza I', '567 Calle Novena', '192.168.0.9');
+INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP) VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10');
+
 --Poliza
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (1001, 1234567890, 123456789);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (1002, 1234567890, 234567890);
@@ -312,7 +324,7 @@ INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (8003, 89
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (9001, 9012345678, 234567890);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (9002, 9012345678, 456789012);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (9003, 9012345678, 123456789);
-INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (10001, 123012301, 901234567);
+INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (10001, 1230123012, 901234567);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (10002, 1230123012, 890123456);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (10003, 1230123012, 678901234);
 INSERT INTO PolizaProyecto2 (polizaNumero, cedulaPaciente, nit) VALUES (11001, 2341234123, 789012345);
@@ -407,18 +419,6 @@ INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (57,
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (58, 'Salud', 14500.00, 20001);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (59, 'Muerte', 17500.00, 20002);
 INSERT INTO tipoCubrimiento (idTC, nombreTC, maxCubri, polizaNumero) VALUES (60, 'Consultas médicas', 29000.00, 20003);
-
---CompaniaPoliza
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123456789, 'Poliza A', '123 Calle Principal', '192.168.0.1');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (234567890, 'Poliza B', '456 Calle Secundaria', '192.168.0.2');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (345678901, 'Poliza C', '789 Calle Terciaria', '192.168.0.3');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (456789012, 'Poliza D', '012 Calle Cuarta', '192.168.0.4');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (567890123, 'Poliza E', '345 Calle Quinta', '192.168.0.5');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (678901234, 'Poliza F', '678 Calle Sexta', '192.168.0.6');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (789012345, 'Poliza G', '901 Calle Séptima', '192.168.0.7');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (890123456, 'Poliza H', '234 Calle Octava', '192.168.0.8');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (901234567, 'Poliza I', '567 Calle Novena', '192.168.0.9');
-INSERT INTO companiaPoliza(NIT, nombre, direccion, dirIP, polizaNumero) VALUES (123012301, 'Poliza J', '890 Calle Décima', '192.168.0.10');
 
 --PersonaContactoCo
 INSERT INTO personaContactoCo(cedulaPCC, nombre, telefono, CPNIT) VALUES (965994336, 'Juan Pérez', '1234567890', 123456789);
