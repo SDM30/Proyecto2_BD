@@ -490,7 +490,36 @@ INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, 
 INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (7839, 'Retraso','2024-05-06', 'Finalizado', '2024-05-12', 7890, 7890123456, 1465);
 
 --Razon
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3456, 'Producto defectuoso', 1234);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9088, 'Cobro indebido', 2345);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (8977, 'Servicio incompleto', 3456);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5788, 'Retraso en la entrega', 4567);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5855, 'Mala atención al cliente', 5678);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (6467, 'Facturación errónea', 6789);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3774, 'Producto dañado durante el envío', 7890);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3567, 'Incumplimiento de contrato', 8901);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9899, 'Negligencia en el servicio', 9012);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (5888, 'Inadecuada resolución de problema', 1011);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (9665, 'Cambio no autorizado', 1111);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (3674, 'Devolución no procesada', 1234);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (2663, 'Política de reembolso no respetada', 2345);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (1367, 'Servicio al cliente no disponible', 3456);
+INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (2661, 'Información engañosa', 4567);
 
 --ReclamoGenerado
-
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9240, 3456);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9476, 9088);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3906, 8977);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3847, 5788);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2084, 5855);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0284, 6467);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2753, 3774);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2935, 3567);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0385, 9899);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2724, 5888);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2648, 9665);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2390, 3674);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3333, 2663);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (4422, 1367);
+INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2037, 2661);
 
