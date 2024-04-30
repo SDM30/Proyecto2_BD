@@ -158,77 +158,41 @@ INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0003, 'Consulta
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0004, 'Revisión de resultados de laboratorio', 4567);
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0005, 'Consulta especializada', 5678);
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0006, 'Control de medicación', 6789);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0007, 'Chequeo dental', 7890);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0008, 'Consulta oftalmológica', 8901);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0009, 'Vacunación', 9012);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0010, 'Seguimiento de embarazo', 1011);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0011, 'Consulta de planificación familiar', 1235);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0012, 'Control de peso', 2345);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0013, 'Consulta de dermatología', 3457);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0014, 'Chequeo de rutina', 4567);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0015, 'Consulta de gastroenterología', 5679);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0016, 'Consulta de traumatología', 0800);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0017, 'Consulta de otorrinolaringología', 0801);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0018, 'Control de diabetes', 0802);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0019, 'Consulta de psicología', 0803);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0020, 'Control de alergias', 0804);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0021, 'Consulta de cardiología', 0805);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0022, 'Consulta de neumología', 0806);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0023, 'Chequeo de audición', 0807);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0024, 'Consulta de endocrinología', 0808);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0025, 'Consulta de urología', 0809);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0026, 'Consulta de reumatología', 0810);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0027, 'Consulta de oncología', 0811);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0028, 'Control de tiroides', 0812);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0029, 'Consulta de nutrición', 0813);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0030, 'Consulta de geriatría', 1011);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0031, 'Consulta de oftalmología pediátrica', 1234);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0032, 'Chequeo de salud mental', 2345);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0033, 'Consulta de ginecología', 3456);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0034, 'Control de hipertensión', 4567);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0035, 'Consulta de pediatría respiratoria', 5678);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0036, 'Consulta de traumatología infantil', 6789);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0037, 'Consulta de otorrinolaringología pediátrica', 7890);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0038, 'Consulta de gastroenterología pediátrica', 8901);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0039, 'Consulta de nutrición infantil', 9012);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0040, 'Consulta de alergología pediátrica', 1011);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0041, 'Consulta de dermatología pediátrica', 1234);
-
 INSERT INTO MotivoCita (id_motivo, descripcion, id_cita) VALUES (0042, 'Control de desarrollo infantil', 2345);
 
 --PersonalMedico
@@ -506,76 +470,35 @@ INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1014, 4444);
 INSERT INTO Disputa (id_disputa, reclamoCod) VALUES (1015, 5555);
 
 --Etapa
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (9240,'Retraso', '30/04/2024', 'En proceso', NULL, 1234, 1234567890, 1001);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (9476, 'Retraso', '01/05/2024', 'En revisión', NULL, 2345, 2345678901, 1002);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (3906, 'Retraso', '02/05/2024', 'En espera', NULL, 3456, 3456789012, 1003);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (3847, 'Retraso', '03/05/2024', 'En proceso', NULL, 4567, 4567890123, 1004);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2084, 'Retraso', '04/05/2024', 'En revisión', NULL, 5678, 5678901234, 1005);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (0284, 'Retraso', '05/05/2024', 'En espera', NULL, 6789, 6789012345, 1006);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2753, 'Retraso', '06/05/2024', 'En proceso', NULL, 7890, 7890123456, 1007);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2935, 'Retraso', '07/05/2024', 'En revisión', NULL, 8901, 8901234567, 1008);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (0385, 'Retraso', '08/05/2024', 'En espera', NULL, 9012, 9012345678, 1009);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2724, 'Retraso', '09/05/2024', 'En proceso', NULL, 1011, 1234567890, 1010);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2648, 'Retraso', '10/05/2024', 'En revisión', NULL, 1234, 2345678901, 1011);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2390, 'Retraso', '11/05/2024', 'En espera', NULL, 2345, 3456789012, 1012);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (3333, 'Retraso', '12/05/2024', 'En proceso', NULL, 3456, 4567890123, 1013);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (4422, 'Retraso', '13/05/2024', 'En revisión', NULL, 4567, 5678901234, 1014);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (2037, 'Retraso', '04/05/2024', 'Finalizado', '10/05/2024', 5678, 5678901234, 1015);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (4280, 'Retraso', '05/05/2024', 'Finalizado', '11/05/2024', 6789, 6789012345, 1015);
-
-INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) 
-VALUES (7839, 'Retraso','06/05/2024', 'Finalizado', '12/05/2024', 7890, 7890123456, 1015);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9240,'Retraso', '30/04/2024', 'En proceso', NULL, 1234, 1234567890, 1001);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (9476, 'Retraso', '01/05/2024', 'En revisión', NULL, 2345, 2345678901, 1002);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3906, 'Retraso', '02/05/2024', 'En espera', NULL, 3456, 3456789012, 1003);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3847, 'Retraso', '03/05/2024', 'En proceso', NULL, 4567, 4567890123, 1004);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2084, 'Retraso', '04/05/2024', 'En revisión', NULL, 5678, 5678901234, 1005);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0284, 'Retraso', '05/05/2024', 'En espera', NULL, 6789, 6789012345, 1006);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2753, 'Retraso', '06/05/2024', 'En proceso', NULL, 7890, 7890123456, 1007);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2935, 'Retraso', '07/05/2024', 'En revisión', NULL, 8901, 8901234567, 1008);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (0385, 'Retraso', '08/05/2024', 'En espera', NULL, 9012, 9012345678, 1009);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2724, 'Retraso', '09/05/2024', 'En proceso', NULL, 1011, 1234567890, 1010);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2648, 'Retraso', '10/05/2024', 'En revisión', NULL, 1234, 2345678901, 1011);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2390, 'Retraso', '11/05/2024', 'En espera', NULL, 2345, 3456789012, 1012);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (3333, 'Retraso', '12/05/2024', 'En proceso', NULL, 3456, 4567890123, 1013);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4422, 'Retraso', '13/05/2024', 'En revisión', NULL, 4567, 5678901234, 1014);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (2037, 'Retraso', '04/05/2024', 'Finalizado', '10/05/2024', 5678, 5678901234, 1015);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (4280, 'Retraso', '05/05/2024', 'Finalizado', '11/05/2024', 6789, 6789012345, 1015);
+INSERT INTO Etapa (id_etapa, motivo, fechaProces, descrEstado, fechaFinalizada, reclamoCod, cedulaPM, id_disputa) VALUES (7839, 'Retraso','06/05/2024', 'Finalizado', '12/05/2024', 7890, 7890123456, 1015);
 
 --ReclamoGeneradoEtapa
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9240, 1234);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (9476, 2345);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3906, 3456);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3847, 4567);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2084, 5678);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0284, 6789);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2753, 7890);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2935, 8901);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (0385, 9012);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2724, 1011);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2648, 1234);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2390, 2345);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (3333, 3456);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (4422, 4567);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (2037, 5678);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (4280, 6789);
-INSERT INTO ReclamoGeneradoEtapa (id_etapa, codigoR) VALUES (7839, 7890);
-
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (1000, 9240, 1234);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (2000, 9476, 2345);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (3000, 3906, 3456);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (4000, 3847, 4567);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (5000, 2084, 5678);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (6000, 0284, 6789);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (7000, 2753, 7890);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (8000, 2935, 8901);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (9000, 0385, 9012);
+INSERT INTO ReclamoGeneradoEtapa (id_RGE, id_etapa, codigoR) VALUES (1100, 2724, 1011);
 
 --Razon
 INSERT INTO Razon (codRazon, descripcion, reclamoCod) VALUES (1234, 'Producto defectuoso', 1234);
