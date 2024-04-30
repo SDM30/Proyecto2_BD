@@ -83,5 +83,5 @@ CREATE VIEW punto5Proyecto2 AS
         FROM Reclamo
         LEFT JOIN Etapa ON Reclamo.codigoR = Etapa.reclamocod
         Group by Reclamo.codigoR
-    ) t1 ON t2.codigoR = t1.codigoR;
+    ) t1 ON t2.codigoR = t1.codigoR
 );
