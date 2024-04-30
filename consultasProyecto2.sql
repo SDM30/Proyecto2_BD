@@ -17,6 +17,19 @@ CREATE VIEW punto1Proyecto2 AS
         ) t2 ON t1.cedulaPaciente = t2.pacienteCedula
 );
 
+CREATE VIEW ReclamacionesPorPaciente AS
+(
+    SELECT nombre, sexo, cedulaPaciente, NUMCITA, ValorTotalReclamado, ValorTotalPagado, Diferencia
+    FROM punto1Proyecto2
+    
+    UNION ALL
+    
+    SELECT 'Total General', NULL, NULL, NULL, SUM(ValorTotalReclamado), SUM(ValorTotalPagado), SUM(Diferencia)
+    FROM punto1Proyecto2
+);
+
+SELECT * FROM ReclamacionesPorPaciente;
+
 --SegundaConsulta
 CREATE VIEW punto2Proyecto2 AS
 (
