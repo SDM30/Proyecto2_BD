@@ -136,11 +136,12 @@ CREATE TABLE Etapa(
 );
 
 CREATE TABLE ReclamoGeneradoEtapa(
+    id_RGE numeric(10),
     id_etapa numeric(10),
     codigoR numeric(10),
     foreign key (id_etapa) references Etapa on delete set null,
     foreign key (codigoR) references Reclamo on delete set null,
-    primary key(id_etapa)
+    primary key(id_RGE)
 );
 
 CREATE TABLE Razon(
