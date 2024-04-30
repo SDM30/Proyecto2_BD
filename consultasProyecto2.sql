@@ -63,17 +63,12 @@ JOIN
 
 CREATE VIEW punto5Proyecto2 AS
 (
-    SELECT t1.codigoR, t1.NUMETAPAS, t2.codigor as idNuevoReclamo
-    FROM 
-        (
-        SELECT ReclamoGeneradoEtapa.codigoR
-        FROM ReclamoGeneradoEtapa
-        JOIN Etapa ON Etapa.id_etapa = ReclamoGeneradoEtapa.id_etapa
-        ) t2
+    SELECT t1.codigoR, t1.NUMETAPAS, t2.id_RGE as idNuevoReclamo
+    FROM ReclamoGeneradoEtapa t2
     JOIN (
-            SELECT reclamo.codigoR, COUNT(DISTINCT id_etapa)as NUMETAPAS
-            FROM Reclamo
-            JOIN Etapa ON Reclamo.codigoR = Etapa.reclamocod
-            Group by Reclamo.codigoR
-        ) t1 ON t2.codigoR = t1.codigoR
+        SELECT reclamo.codigoR, COUNT(DISTINCT id_etapa)as NUMETAPAS
+        FROM Reclamo
+        JOIN Etapa ON Reclamo.codigoR = Etapa.reclamocod
+        Group by Reclamo.codigoR
+    ) t1 ON t2.codigoR = t1.codigoR
 );
